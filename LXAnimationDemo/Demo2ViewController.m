@@ -24,42 +24,6 @@
     
     //loading动画
     [self animation2];
-    /*
-     UIBezierPath
-     UIBezierPath主要是用来绘制路径的，分为一阶、二阶.....n阶。一阶是直线，二阶以上才是曲线。而最终路径的显示还是得依靠CALayer
-     初始化方法一共7种
-     //方法1：构造bezierPath对象，一般用于自定义路径。
-     [UIBezierPath bezierPath];
-     
-     //方法2：根据某个CGRect绘制路径。
-     [UIBezierPath bezierPathWithRect:<#(CGRect)#>];
-     
-     //方法3：根据某个CGRect绘制内切圆或椭圆（CGRect是正方形即为圆，为长方形则为椭圆）。
-     [UIBezierPath bezierPathWithOvalInRect:<#(CGRect)#>];
-     
-     //方法4：根据某个路径绘制路径。
-     [UIBezierPath bezierPathWithCGPath:<#(nonnull CGPathRef)#>];
-     
-     //方法5：绘制每个角都是圆角的矩形，参数2是半径。
-     [UIBezierPath bezierPathWithRoundedRect:<#(CGRect)#> cornerRadius:<#(CGFloat)#>];
-     
-     //方法6：绘制带圆角的矩形路径，参数2哪个角，参数3，横、纵向半径。
-     [UIBezierPath bezierPathWithRoundedRect:<#(CGRect)#> byRoundingCorners:<#(UIRectCorner)#> cornerRadii:<#(CGSize)#>];
-     
-     //方法7：绘制圆弧路径，参数1是中心点位置，参数2是半径，参数3是开始的弧度值，参数4是结束的弧度值，参数5是是否顺时针(YES是顺时针方向，NO逆时针)。
-     [UIBezierPath bezierPathWithArcCenter:<#(CGPoint)#> radius:<#(CGFloat)#> startAngle:<#(CGFloat)#> endAngle:<#(CGFloat)#> clockwise:<#(BOOL)#>];
-     ----
-     自定义路径常用api
-     - (void)moveToPoint:(CGPoint)point; // 移到某个点
-     - (void)addLineToPoint:(CGPoint)point; // 绘制直线
-     - (void)addCurveToPoint:(CGPoint)endPoint controlPoint1:(CGPoint)controlPoint1 controlPoint2:(CGPoint)controlPoint2; //绘制贝塞尔曲线
-     - (void)addQuadCurveToPoint:(CGPoint)endPoint controlPoint:(CGPoint)controlPoint; // 绘制规则的贝塞尔曲线
-     - (void)addArcWithCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise
-     // 绘制圆形曲线
-     - (void)appendPath:(UIBezierPath *)bezierPath; // 拼接曲线
-     */
-  
-   
 }
 
 -(void)animation1:(CGFloat)toValue{
