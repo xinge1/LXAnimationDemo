@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Demo1ViewController.h"
+#import "Demo2ViewController.h"
 #import "Demo3ViewController.h"
 #import "Demo4ViewController.h"
 #import <objc/runtime.h>
@@ -25,7 +26,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.classArray=[NSMutableArray array];
     [self addViewControl:[Demo1ViewController class]];
-    //[self addViewControl:[Demo2ViewController class]];
+    [self addViewControl:[Demo2ViewController class]];
     [self addViewControl:[Demo3ViewController class]];
     [self addViewControl:[Demo4ViewController class]];
     

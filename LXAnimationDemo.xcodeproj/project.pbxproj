@@ -19,6 +19,7 @@
 		4B2A6FF81CC5DE1400B24A33 /* LXAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A6FF71CC5DE1400B24A33 /* LXAnimationDemoUITests.m */; };
 		4B2A70081CC5DE2A00B24A33 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A70071CC5DE2A00B24A33 /* Demo1ViewController.m */; };
 		4BE87E7D1CC7339200763968 /* WeiboshareImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE87E7C1CC7339200763968 /* WeiboshareImage.png */; };
+		4BF784D91CC9D6A3006B0FF6 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF784D81CC9D6A3006B0FF6 /* Demo2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		4B2A70061CC5DE2A00B24A33 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
 		4B2A70071CC5DE2A00B24A33 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
 		4BE87E7C1CC7339200763968 /* WeiboshareImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeiboshareImage.png; sourceTree = "<group>"; };
+		4BF784D71CC9D6A3006B0FF6 /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		4BF784D81CC9D6A3006B0FF6 /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				4B199A541CC879A600ED5BD9 /* Demo3ViewController.m */,
 				4B199A561CC8A86400ED5BD9 /* Demo4ViewController.h */,
 				4B199A571CC8A86400ED5BD9 /* Demo4ViewController.m */,
+				4BF784D71CC9D6A3006B0FF6 /* Demo2ViewController.h */,
+				4BF784D81CC9D6A3006B0FF6 /* Demo2ViewController.m */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				4B2A70081CC5DE2A00B24A33 /* Demo1ViewController.m in Sources */,
 				4B2A6FD71CC5DE1300B24A33 /* AppDelegate.m in Sources */,
 				4B199A551CC879A600ED5BD9 /* Demo3ViewController.m in Sources */,
+				4BF784D91CC9D6A3006B0FF6 /* Demo2ViewController.m in Sources */,
 				4B2A6FD41CC5DE1300B24A33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
